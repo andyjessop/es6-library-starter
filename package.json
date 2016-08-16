@@ -1,0 +1,31 @@
+{
+  "name": "typescript-chess",
+  "version": "0.0.1",
+  "description": "An experiment in TypeScript",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --progress --colors --watch",
+    "test": "karma start",
+    "server": "npm run build && webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "chai": "^3.5.0",
+    "chai-dom": "^1.4.0",
+    "chai-things": "^0.2.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.3",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon": "^1.0.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.7",
+    "sinon": "^1.17.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
